@@ -1,0 +1,19 @@
+{
+  "name": "wiki-bot-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.16.1",
+    "dialogflow-fulfillment": "^0.5.0",
+    "express": "^5.2.1"
+  }
+}
