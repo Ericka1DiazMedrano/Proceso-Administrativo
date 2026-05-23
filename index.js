@@ -20,7 +20,7 @@ app.post('/webhook', async (request, response) => {
         method: 'post',
         url: 'https://api.groq.com/openai/v1/chat/completions',
         headers: {
-          'Authorization': Bearer ${GROQ_API_KEY},
+          'Authorization': `Bearer ${GROQ_API_KEY}`,
           'Content-Type': 'application/json'
         },
         data: {
